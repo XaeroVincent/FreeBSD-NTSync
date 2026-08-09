@@ -1,3 +1,0 @@
-This is a FreeBSD kernel driver that implements NT synchronization primitives.
-It is designed to support high-performance synchronization for compatibility
-layers like Wine and Proton.
