@@ -1,10 +1,10 @@
 PORTNAME=	ntsync
-DISTVERSION=	g20260426
+DISTVERSION=	g20260809
 CATEGORIES=	emulators
 PKGNAMESUFFIX=	-kmod
 
 MAINTAINER=	tmp386@live.com
-COMMENT=	NTSync kernel driver for Windows compatibility layers
+COMMENT=	Upstream NTSync kernel driver for Windows compatibility layers
 WWW=		https://github.com/XaeroVincent/FreeBSD-NTSync
 
 LICENSE=	GPLv2
