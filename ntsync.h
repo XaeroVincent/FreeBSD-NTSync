@@ -13,6 +13,11 @@
 #include <sys/types.h>
 #include <sys/ioccom.h>
 
+#ifdef __FreeBSD__
+typedef uint32_t __u32;
+typedef uint64_t __u64;
+#endif
+
 struct ntsync_sem_args {
 	uint32_t count;
 	uint32_t max;
